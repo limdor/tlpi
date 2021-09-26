@@ -15,8 +15,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Bazel build
-      run: bazel build ...
+    - name: Bazel version
+      run: bazel version
 
-    - name: Bazel test
-      run: bazel test ...
+    - name: Bazel build
+      run: bazel build //...
