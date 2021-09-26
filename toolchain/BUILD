@@ -80,6 +80,7 @@ cc_toolchain_config(
     c_flags = ["-std=c18"],
     compile_flags = [
         "-U_FORTIFY_SOURCE",
+        "-D_XOPEN_SOURCE=700",
         "-fstack-protector",
         "-Wall",
         "-Wextra",
