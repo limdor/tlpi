@@ -5,4 +5,5 @@ cc_library(
         "error_functions.c",
     ],
     hdrs = ["error_functions.h"],
+    visibility = ["//visibility:public"],
 )
